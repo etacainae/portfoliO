@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+#noarmy {
+  background-image: url(../img/Group4.png);
+  background-color: #DD4F4F;
+}
+#stroymaster {
+  background-image: url(../img/Group3.png);
+  background-color: #EDC23F;
+}
+#hitsvit {
+  background-image: url(../img/Group2.png);
+  background-color: #3258AD;
+}
+#belarosso {
+  background-image: url(../img/Group1.png);
+  position: relative;
+  background-color: #BE4A4A;
+}
+.page-section {
+  position: relative;
+  display: block;
+  background-position: center;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+.page-section.sticky {
+  position: fixed;
+  top:0;
+  left:0;
+}
